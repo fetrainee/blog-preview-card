@@ -75,6 +75,11 @@ section {
     font-weight: 800;
 }
 
+.card__content h2:hover {
+    color: var(--color-yellow);
+}
+
+
 .card__content p {
     color: var(--color-grey-500);
     font-size: var(--font-text-preset-3);
