@@ -8,7 +8,7 @@
     --font-text-preset-1: 1.5rem;
     --font-text-preset-2: 1rem;
     --font-text-preset-3: 0.875rem;
-    --font-family: Figtree;
+    --font-text-preset-4: 0.75rem;
 }
 
 * {
@@ -22,7 +22,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh
+    min-height: 100vh;
+    font-family: Figtree, sans-serif;
+    line-height: 150%;
+    letter-spacing: 0;
 }
 
 section {
@@ -35,6 +38,21 @@ section {
     border: 1px inset var(--color-grey-950);
     border-radius: 1.25rem;
     box-shadow: 0.5rem 0.5rem var(--color-grey-950);
+}
+
+.card__image img {
+    height: 12.5rem;
+    border-radius: 0.625rem;
+}
+
+.card__content mark {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+    background-color: var(--color-yellow);
+    color: var(--color-grey-950);
+    font-size: var(--font-text-preset-4);
+    font-weight: 800;
 }
 
 @media (min-width: 1440px) {
