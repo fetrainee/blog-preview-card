@@ -9,6 +9,7 @@
     --font-text-preset-2: 1rem;
     --font-text-preset-3: 0.875rem;
     --font-text-preset-4: 0.75rem;
+    --font-text-preset-5: 1.25rem;
 }
 
 * {
@@ -65,6 +66,18 @@ section {
 .card__content time {
     color: var(--color-grey-950);
     font-size: var(--font-text-preset-4);
+    font-weight: 500;
+}
+
+.card__content h2 {
+    color: var(--color-grey-950);
+    font-size: var(--font-text-preset-5);
+    font-weight: 800;
+}
+
+.card__content p {
+    color: var(--color-grey-500);
+    font-size: var(--font-text-preset-3);
     font-weight: 500;
 }
 
