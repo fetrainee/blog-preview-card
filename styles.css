@@ -42,8 +42,11 @@ section {
 }
 
 .card__image img {
+    display: block;
     height: 12.5rem;
     border-radius: 0.625rem;
+    width: 100%;
+    object-fit: cover;
 }
 
 .card__content {
